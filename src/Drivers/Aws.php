@@ -100,7 +100,7 @@ class Aws implements Driver
                         'StringValue' => $message['from'],
                     ],
                 ],
-                "SMSType" => "Transactional",
+                "SMSType" => "Promotional",
                 "Message" => $message['content'],
                 "PhoneNumber" => $message['to']
             );
