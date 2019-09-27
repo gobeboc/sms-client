@@ -47,7 +47,7 @@ class Client implements ClientContract
      *
      * @return boolean
      */
-    public function send(array $msg): bool
+    public function send(array $msg)
     {
         return $this->driver->sendRequest($msg);
     }
