@@ -22,5 +22,5 @@ interface Client
      *
      * @return boolean
      */
-    public function send(array $msg): bool;
+    public function send(array $msg);
 }
