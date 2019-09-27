@@ -26,5 +26,5 @@ interface Driver
      *
      * @return boolean
      */
-    public function sendRequest(array $message)
+    public function sendRequest(array $message);
 }
