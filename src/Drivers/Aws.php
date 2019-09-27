@@ -90,7 +90,7 @@ class Aws implements Driver
      *
      * @return boolean
      */
-    public function sendRequest(array $message): bool
+    public function sendRequest(array $message)
     {
         try {
             $args = array(
